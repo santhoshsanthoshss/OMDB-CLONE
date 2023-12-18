@@ -1,0 +1,25 @@
+.faqcard {
+  border: 1px solid red;
+  margin: 50px auto;
+  width: 60%;
+  padding: 20px;
+}
+.uidatastyle p {
+  margin-bottom: 50px;
+}
+.uidatastyle {
+  background-color: lightcyan;
+  padding: 7px;
+  margin: 20px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.items {
+  margin: 20px;
+}
+
+.content {
+  display: none;
+}

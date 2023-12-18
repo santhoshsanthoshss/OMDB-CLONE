@@ -1,0 +1,16 @@
+.navabar_main {
+  /* margin-left: 40px; */
+  padding: 30px;
+  background-color: crimson;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: space-evenly;
+}
+
+.hyper_main {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}

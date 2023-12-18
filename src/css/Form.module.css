@@ -1,0 +1,38 @@
+.card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 440px;
+  width: 400px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+input {
+  padding: 12px;
+  margin: 13px;
+  border-radius: 5px;
+  border: 2px solid black;
+
+  width: 80%;
+  margin-left: 20px;
+}
+input::placeholder {
+  font-size: 15px;
+  font-style: italic;
+  color: black;
+}
+
+button {
+  background-color: rgba(0, 47, 255, 0.564);
+  border: 2px solid lightcyan;
+  padding: 10px 24px 10px 20px;
+  margin-top: 6px;
+  margin-left: 36%;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+small {
+  margin-left: 20px;
+}

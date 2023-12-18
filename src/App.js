@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import FakeStoreapi from "./components/FakeStoreapi";
+import Omdbapi from "./components/Omdbapi";
+import FormDisplay from "./components/FormDisplay";
 
-function App() {
+import FormValidation from "./components/CustomFormValidation/FormValidation";
+import HookForm from "./components/ReactHookForm/HookForm";
+import ImageSlider from "./components/ImageSlider/ImageSlider";
+import FormObject from "./components/FormdisplayObject.jsx/FormObject";
+import FaqAccordion from "./components/FaqAccordion/FaqAccordion";
+import Field from "./components/FormFieldSearch/Field";
+import CrudRoutes from "./components/CrudApi/CrudRoutes.jsx";
+import AccordianFaq from "./components/FaqAccordion/AccordianFaq.jsx";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Omdbapi />
     </div>
   );
-}
+};
 
 export default App;
